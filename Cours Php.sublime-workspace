@@ -1,0 +1,826 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 325,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "pages/login.php",
+			"settings":
+			{
+				"buffer_size": 708,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "pages/index.php",
+			"settings":
+			{
+				"buffer_size": 285,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "pages/coureur.php",
+			"settings":
+			{
+				"buffer_size": 140,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "includes/classes/connection.php",
+			"settings":
+			{
+				"buffer_size": 5188,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "includes/utils/html.php",
+			"settings":
+			{
+				"buffer_size": 1680,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "pages.php",
+			"settings":
+			{
+				"buffer_size": 265,
+				"line_ending": "Windows",
+				"name": "<?php"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 160,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "logout.php",
+			"settings":
+			{
+				"buffer_size": 164,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "login.php",
+			"settings":
+			{
+				"buffer_size": 713,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "includes/classes/session.php",
+			"settings":
+			{
+				"buffer_size": 2421,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "includes/includes.php",
+			"settings":
+			{
+				"buffer_size": 755,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "includes/utils/display.php",
+			"settings":
+			{
+				"buffer_size": 296,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "includes/utils/misc.php",
+			"settings":
+			{
+				"buffer_size": 410,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/Build Systems/PHP.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"sublimelint",
+				"Preferences: SublimeLint Settings – User"
+			]
+		],
+		"width": 386.0
+	},
+	"console":
+	{
+		"height": 111.0,
+		"history":
+		[
+			"5+5",
+			"1+1",
+			"print(\"lol\");",
+			"echo \"lol\";",
+			"echo lol;",
+			"view.run_command(\"compile.bat\")",
+			"view.run_command(\"compile.bat\", {\"line\": 8})",
+			"view.run_command(\"goto_line\", {\"line\": 8})",
+			"view.run_command(\"goto_line\", {\"line\": 7})",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read()) ",
+			"a",
+			"a = 5",
+			"lol",
+			"mingw32-make",
+			"make"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/CoursPHP/includes/utils/pages.php",
+		"/C/Program Files/Sublime Text 3/Data/Packages/PhpTidy/PhpTidy.sublime-settings",
+		"/C/Program Files/Sublime Text 3/Data/Packages/User/PhpTidy.sublime-settings",
+		"/C/Program Files/Sublime Text 3/Data/Packages/User/Preferences.sublime-settings",
+		"/C/wamp/www/CoursPHP/templates/base-header.html",
+		"/C/wamp/www/CoursPHP/includes/utils.php",
+		"/C/wamp/www/CoursPHP/includes/classes.php",
+		"/C/wamp/www/CoursPHP/includes/classes/form.php",
+		"/C/wamp/www/CoursPHP/templates/base-scripts.html",
+		"/C/wamp/www/CoursPHP/header.php",
+		"/C/wamp/www/CoursPHP/footer.php",
+		"/C/wamp/www/CoursPHP/templates/base-footer.html",
+		"/C/wamp/www/CoursPHP/includes/options.php",
+		"/C/wamp/www/CoursPHP/includes/utils/display.php",
+		"/C/wamp/www/CoursPHP/design/default.css",
+		"/C/wamp/www/CoursPHP/includes/classes/session.php",
+		"/C/wamp/www/CoursPHP/includes/htmLawed/htmLawed.php",
+		"/C/wamp/www/CoursPHP/templates/form.php",
+		"//Cdesvg02/public/Téléchargements/O.2007.FR.corp/key.txt",
+		"/C/wamp/www/CoursPHP/includes/utils/form.php",
+		"/C/wamp/www/CoursPHP/templates/results.php",
+		"/C/wamp/www/CoursPHP/scripts/console.js",
+		"/C/wamp/www/CoursPHP/templates/base-footer.php",
+		"/C/wamp/www/CoursPHP/submit.php",
+		"/C/wamp/www/CoursPHP/index.php",
+		"/C/wamp/www/CoursPHP/functions/utils.php",
+		"/C/wamp/www/CoursPHP/templates/base-header.php",
+		"/C/wamp/www/CoursPHP/templates/base-scripts.php",
+		"/C/Program Files/World of Warcraft/Interface/AddOns/Tukui_sui/modules/trackers/trackers.xml",
+		"/C/wamp/www/CoursPHP/templates/userbar.php",
+		"/C/wamp/www/CoursPHP/logout.php",
+		"/C/wamp/www/CoursPHP/functions/connection.php",
+		"/C/wamp/www/CoursPHP/login.php",
+		"/C/wamp/www/CoursPHP/load.php",
+		"/C/wamp/www/CoursPHP/hello.php",
+		"/C/wamp/www/CoursPHP/templates/console.php",
+		"/C/wamp/www/CoursPHP/templates/footer.php",
+		"/C/wamp/www/CoursPHP/templates/header.php",
+		"/C/wamp/www/CoursPHP/includes/utils/class-utils.php",
+		"/C/wamp/www/CoursPHP/includes/session.php",
+		"/C/wamp/www/CoursPHP/.htaccess",
+		"/C/wamp/www/CoursPHP/templates/submit.php",
+		"/C/wamp/www/CoursPHP/pages/login.php",
+		"/C/wamp/www/CoursPHP/p1402.php",
+		"/C/wamp/www/CoursPHP/templates/connection.php",
+		"/C/wamp/www/CoursPHP/scripts/error.js",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/jxvtttvr.jvx.txt",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/bin/Debug/ressources/ressources.toc",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/.gitignore",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/ressources/ressources.toc",
+		"/C/Users/Soinou/Google Drive/Cours/PHP/support_php/p1107.php",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/bin/Release/ressources/ressources.toc",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/SoundFileCache.h",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/SoundFileCache.cpp",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/bin/Debug/BattleStar.log",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/lcjsvdcw.s2r.txt",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/q3lpfomw.qmj.txt",
+		"/C/Users/Soinou/Desktop/lol.js",
+		"/C/Users/Soinou/Google Drive/Cours/PHP/support_php/p1102.php",
+		"/C/wamp/www/CoursPHP/scripts/form.ts",
+		"/C/Program Files/Sublime Text 3/Data/Packages/User/T3S/Typescript.sublime-build",
+		"/C/Program Files/Sublime Text 3/Data/Packages/T3S/Typescript.sublime-settings",
+		"/C/wamp/www/Cours PHP/scripts/test.js",
+		"/C/wamp/www/Cours PHP/scripts/form.js",
+		"/C/wamp/www/Cours PHP/scripts/test.ts",
+		"/C/wamp/www/Cours PHP/scripts/form.ts",
+		"/C/wamp/www/Cours PHP/scripts/createform.js",
+		"/C/wamp/www/Cours PHP/templates/footer.php",
+		"/C/wamp/www/Cours PHP/design/bootstrap.min.css",
+		"/C/wamp/www/Cours PHP/functions/utils.php",
+		"/C/wamp/www/Cours PHP/design/default.css",
+		"/C/wamp/www/Cours PHP/templates/header.php",
+		"/C/wamp/www/Cours PHP/scripts/jquery.d.ts",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/typescript_support_for_sublime_text/typescript_support_for_sublime_text/TypeScript support for Sublime Text/README-sublime-typescript.txt",
+		"/C/wamp/www/Cours PHP/scripts/file-input.js",
+		"/C/wamp/www/Cours PHP/scripts/jquery.min.js",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/src/vue/ressources/ressources.hpp",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/src/vue/vue.cpp",
+		"/C/Program Files/Sublime Text 3/Data/Packages/User/Build Systems/CMake.sublime-build",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/src/utile/archive.cpp",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/src/vue/ressources/ressources.cpp",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/src/vue/vue.hpp",
+		"/C/Users/Soinou/Workspace/Projects/SFML-2.1/build/CMakeCache.txt",
+		"/C/Users/Soinou/AppData/Local/Temp/fz3temp-1/inutile",
+		"/C/Users/Soinou/AppData/Local/Temp/fz3temp-1/tamere",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/ninja-master/ninja-master/bootstrap.py",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/cmake/client.cmake",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/src/main/client.cpp",
+		"/C/Program Files/Sublime Text 3/Data/Packages/User/Color Schemes/Visual Studio.tmTheme",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/BattleStar.sublime-project",
+		"/C/Program Files/Sublime Text 3/Data/Packages/User/Phoenix Dark.sublime-theme",
+		"/C/Qt/README.txt",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/bataille/bataille/CMakeLists.txt",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/bataille/bataille/src/main.cpp",
+		"/C/Program Files/Sublime Text 3/Data/Packages/User/SublimeLint.sublime-settings",
+		"/C/Program Files/Sublime Text 3/Data/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/bataille/bataille/src/plateau/Plateau.hpp",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/bataille/bataille/src/plateau/Plateau.cpp",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/bataille/bataille/src/structures/vaisseaux/Vaisseau.hpp",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/bataille/bataille/src/structures/vaisseaux/Vaisseau.cpp",
+		"/C/Users/Soinou/Workspace/Projects/BatailleCedric/bataille/src/structures/vaisseaux/Vaisseau.cpp",
+		"/C/Program Files/Sublime Text 3/Data/Packages/User/CMake.sublime-build",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/bataille/bataille/src/joueur/Race.hpp",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/bataille/bataille/src/joueur/Race.cpp",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/bataille/bataille/src/plateau/TypeCellule.hpp",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/bataille/bataille/src/plateau/Point.hpp",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/bataille/bataille/src/plateau/Point.cpp",
+		"/C/Program Files/Sublime Text 3/Data/Packages/SideBarEnhancements/CHANGELOG",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/buildfile.xml",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/bataille/bataille/src/plateau/Noeud.hpp",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/bataille/bataille/src/structures/Structure.hpp",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/bataille/bataille/src/structures/Structure.cpp",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/bataille/bataille/src/plateau/Cellule.hpp",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/bataille/bataille/src/plateau/Cellule.cpp",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/bataille/bataille/src/plateau/Noeud.cpp",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/bataille/bataille/src/plateau/evenement/Evenement.cpp",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/bataille/bataille/src/plateau/evenement/Evenement.hpp",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/src/utile/archive.hpp",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/src/vue/affichage/affichage.cpp",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/cmake/source.cmake",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/src/utile/utile.hpp",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/CMakeLists.txt",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/compile.bat",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/bataille/bataille/cmake_install.cmake",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/bataille/bataille/cmake_modules/FindSFML.cmake",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/cmake/zlib.cmake",
+		"/C/Users/Soinou/Workspace/Projects/BattleStar/bin/Debug/ressources/ressources.hpp",
+		"/C/Users/Soinou/Downloads/Firefox Downloads/zlib128-dll/USAGE.txt"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"'\">'",
+			"}\n",
+			">\n",
+			"\"); "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 9,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 325,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5,
+								5
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "pages/login.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 708,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								569,
+								569
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 8,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "pages/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								222,
+								222
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "pages/coureur.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 140,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "includes/classes/connection.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5188,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1121,
+								1121
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 336.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "includes/utils/html.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1680,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								71,
+								71
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "pages.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								230,
+								230
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<?php",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								160,
+								160
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "logout.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								101,
+								101
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "login.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 713,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								577,
+								577
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "includes/classes/session.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2421,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1704,
+								1704
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1035.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "includes/includes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 755,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								539,
+								539
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "includes/utils/display.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 296,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								100,
+								100
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "includes/utils/misc.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 410,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								194,
+								194
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"project": "Cours Php.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\wamp\\www\\Projet PHP\\Projet PHP.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 159.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

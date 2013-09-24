@@ -1,0 +1,59 @@
+#container
+{
+    margin:auto;
+    padding:1%;
+    border:1px solid black;
+    background-color:#eeeeee;
+    width:20%;
+    margin-top:10%;
+}
+
+#textarea
+{
+    width:95%;
+    height:5%;
+
+    resize:none;
+}
+
+#userpanel
+{
+    padding:1%;
+    border:1px solid black;
+    background-color:#eeeeee;
+    float: right;
+    font-size: 1.2em;
+}
+
+#username
+{
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+#userinstance
+{
+    color: lightseablue;
+    font-weight: bold;
+}
+
+.xdebug-error
+{
+    margin:auto;
+    border:1px solid black !important;
+    padding:5px 5px 5px 5px;
+}
+
+.xe-fatal-error
+{
+    border: 1px solid black;
+}
+
+.console
+{
+    position:absolute;
+    border:1px solid black;
+    background-color:#eeeeee;
+    bottom:4px;
+    left:4px;
+}
