@@ -9,7 +9,7 @@
     {
         $id = $session->saveVar('id', safe($_POST['id']));
 
-        $pass = $session->saveVar('password', sha1(safe($_POST['password'])));
+        $pass = $session->saveVar('password', safe($_POST['password']));
 
         $insta = $session->saveVar('instance', safe($_POST['instance']));
 
@@ -18,15 +18,16 @@
         $connect->connect();
 
         if($connect->connected())
-            $session->saveVar('logged', true);
+            $session->saveVar('logged', 1);
         else
-            $session->saveVar('logged', false);
+            $session->saveVar('logged', 0);
     }
 
-    if($session->getVar('logged'))
-        $session->close();
-    else
-        $session->close();
+    $session->display();
+
+    $session->close();
+
+    $session->close();
 
     header("Location:index.php");
 ?>

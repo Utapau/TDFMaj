@@ -31,11 +31,7 @@
 
         $str .= '<script src="scripts/jquery.js"></script>';
 
-        $str .= '<script src="scripts/form.js"></script>';
-
-        $str .= '<script src="scripts/error.js"></script>';
-        
-        $str .= '<script src="scripts/console.js"></script>';
+        $str .= '<script src="scripts/tabs.js"></script>';
         
         $str .= '<script src="scripts/bootstrap.js"></script>';
 
@@ -51,27 +47,45 @@
         return $str;
     }
 
-    function get_navbar()
+    function get_navbar($active)
     {
         $session = _G('session');
 
-        $pages = get_pages();
+        if($session->isEmpty())
+            exit;
 
-        $str = '<ul class="nav nav-tabs">';
+        $pages = array();
 
-        foreach($pages as $page => $path)
+        $pages['index'] = 'index.php';
+        $pages['coureur'] = 'coureur.php';
+
+        $str = '<div id="navbar">';
+
+        $str .= '<div id="userbar">';
+
+        $str .= 'User : <span id="username">' . $session->getVar("id") . ' </span>';
+
+        $str .= 'Instance : <span id="instance">' . $session->getVar("instance") . ' </span>';
+
+        $str .= '<a style="float:right" class="btn btn-danger" href="logout.php">Logout</a>' . '<br>';
+
+        $str .= '</div>';
+
+        $str .= '<ul id="tabs" class="inline">';
+
+        foreach($pages as $name => $page)
         {
-            if($session->getVar('location') == $page)
-                $str .= '<li class="active">';
-            else
-                $str .= '<li>';
+            $class = 'btn';
 
-            $str .= '<a href="pages.php?l=' . $page . '">' . $page . '</a>';
+            if($active == $name)
+                $class .= ' btn-primary';
 
-            $str .= '</li>';
+            $str .= '<li><a class="' . $class . '" href="' . $page . '">' . $name . '</a></li>';
         }
 
-        $str .= '</nav>';
+        $str .= '</ul>';
 
-        return tidy($str);
+        $str .= '</div>';
+
+        return $str;
     }

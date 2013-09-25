@@ -149,7 +149,7 @@
 
         public function toHtml()
         {
-            $str = '<div id="container">';
+            $str = '<div id="login-form">';
 
             $str .= '<form method="' . $this->method . '" action="' . $this->action . '" >';
 

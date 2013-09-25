@@ -8,10 +8,10 @@
     $session->open();
 
     $session->regenerate();
-    
+
     if(!$session->getVar('logged'))
     {
-        include('pages/login.php');
+        header('Location:index.php');
     }
     else
     {
@@ -29,7 +29,5 @@
 
         echo $page;
     }
-    
-    $session->close();
 
-?>
+    $session->close();

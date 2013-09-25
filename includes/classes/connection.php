@@ -87,6 +87,11 @@
             else
                 return false;
         }
+
+        public function error()
+        {
+            return $this->error;
+        }
     }
 
     function connect($id, $password, $instance)
