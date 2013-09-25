@@ -11,7 +11,7 @@
     
     if(!$session->getVar('logged'))
     {
-        include('pages/login.php');
+        include('includes/pages/login.php');
     }
     else
     {

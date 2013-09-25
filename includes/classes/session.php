@@ -66,10 +66,10 @@
             return $this->name;
         }
 
-        public function isEmpty($index = '')
+        public function exists($index = '')
         {
             if($index == '')
-                return empty($_SESSION);
+                return !empty($_SESSION);
             else
                 return isset($_SESSION[$index]);
         }
@@ -90,7 +90,7 @@
 
         public function getVar($index)
         {
-            if($this->isOpen() && $this->isEmpty($index))
+            if($this->isOpen() && $this->exists($index))
             {
                 return $_SESSION[$index];
             }
@@ -102,7 +102,7 @@
 
         public function display()
         {
-            if($this->isOpen() && !$this->isEmpty())
+            if($this->isOpen() && $this->exists())
             {
                 foreach($_SESSION as $key => $value)
                 {

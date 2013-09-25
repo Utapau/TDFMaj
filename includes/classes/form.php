@@ -35,7 +35,14 @@
 
         public function toHtml()
         {
+            $session = _G('session');
+
             $str = '<div class="controls">';
+
+            $value = '';
+
+            if($session->exists($this->name))
+                $value = 'value="' . $session->getVar($this->name) . '"';
 
             if($this->type == 'checkbox' || $this->type == 'radio')
             {
@@ -51,7 +58,8 @@
             {
                 $str .= '<label class="' . $this->type . '">' . $this->label . '</label>';
 
-                $str .= '<input type="' . $this->type . '" name="' . $this->name . '" placeholder="' . $this->placeholder . '" />';
+                $str .= '<input type="' . $this->type . '" name="' . $this->name . '" placeholder="' . $this->placeholder . '" ' . $value . '/>';
+
             }
 
             $str .= '</div>' . "\n";
@@ -149,9 +157,7 @@
 
         public function toHtml()
         {
-            $str = '<div id="login-form">';
-
-            $str .= '<form method="' . $this->method . '" action="' . $this->action . '" >';
+            $str = '<form method="' . $this->method . '" action="' . $this->action . '" >';
 
             foreach($this->fieldsets as $fieldset)
             {
@@ -159,8 +165,6 @@
             }
 
             $str .= '</form>';
-
-            $str .= '</div>';
 
             return tidy($str);
         }

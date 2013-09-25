@@ -20,7 +20,10 @@
         if($connect->connected())
             $session->saveVar('logged', 1);
         else
+        {
             $session->saveVar('logged', 0);
+            $session->saveVar('error', 'Wrong username/password');
+        }
     }
 
     $session->display();

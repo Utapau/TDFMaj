@@ -51,7 +51,7 @@
     {
         $session = _G('session');
 
-        if($session->isEmpty())
+        if(!$session->exists())
             exit;
 
         $pages = array();
@@ -81,6 +81,24 @@
                 $class .= ' btn-primary';
 
             $str .= '<li><a class="' . $class . '" href="' . $page . '">' . $name . '</a></li>';
+        }
+
+        $str .= '</ul>';
+
+        $str .= '</div>';
+
+        return $str;
+    }
+
+    function get_tabs($tabs)
+    {
+        $str = '<div id="tabbar">';
+
+        $str .= '<ul id="tabs" class="inline">';
+
+        foreach($tabs as $tab)
+        {
+            $str .= '<li><button class="btn" name="' . $tab . '">' . $tab . '</button></li>';
         }
 
         $str .= '</ul>';

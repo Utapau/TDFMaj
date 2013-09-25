@@ -11,7 +11,7 @@
     
     if(!$session->getVar('logged'))
     {
-        include('pages/login.php');
+        header('Location:index.php');
     }
     else
     {
@@ -24,34 +24,23 @@
 
         $conn->execute('SELECT * from tdf_coureur order by n_coureur');
 
-        $page =  get_header('Coureur');
+        echo  get_header('Coureur');
 
-        $page .= get_navbar('coureur');
+        echo get_navbar('coureur');
 
-        $page .= '<div id="container">';
+        echo get_tabs(array('add', 'modify', 'delete'));     
 
-        $page .= '<table class="table table-striped">';
+        echo '<div id="container">';
 
-        while(($row = $conn->fetch(OCI_BOTH)))
-        {
-            $page .= '<tr>';
+        include 'includes/pages/coureur/add.php';
 
-            $page .= '<td>' . $row['N_COUREUR'] . '</td>';
+        include 'includes/pages/coureur/modify.php';
 
-            $page .= '<td>' . $row['NOM'] . '</td>';
+        echo '</div>';
 
-            $page .= '<td>' . $row['PRENOM'] . '</td>';
-            
-            $page .= '</tr>';
-        }
+        echo get_footer();
 
-        $page .= '</table>';
-
-        $page .= '</div>';
-
-        $page .= get_footer();
-
-        echo $page;
+        $conn->close();
     }
 
     $session->close();
